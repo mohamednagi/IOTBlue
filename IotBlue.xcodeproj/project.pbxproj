@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A34033FCB98693389DE50F7 /* Pods_IotBlueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769BA09C498154AA466B9BC8 /* Pods_IotBlueUITests.framework */; };
+		9A1D2CEE22BBADB500C311F3 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D2CED22BBADB500C311F3 /* ServiceLayer.swift */; };
 		9A62848522BA4BC200EDDEBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62848422BA4BC100EDDEBF /* AppDelegate.swift */; };
-		9A62848722BA4BC200EDDEBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62848622BA4BC200EDDEBF /* ViewController.swift */; };
 		9A62848A22BA4BC200EDDEBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62848822BA4BC200EDDEBF /* Main.storyboard */; };
 		9A62848D22BA4BC200EDDEBF /* IotBlue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A62848B22BA4BC200EDDEBF /* IotBlue.xcdatamodeld */; };
 		9A62848F22BA4BC200EDDEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A62848E22BA4BC200EDDEBF /* Assets.xcassets */; };
 		9A62849222BA4BC200EDDEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62849022BA4BC200EDDEBF /* LaunchScreen.storyboard */; };
 		9A62849D22BA4BC300EDDEBF /* IotBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62849C22BA4BC300EDDEBF /* IotBlueTests.swift */; };
 		9A6284A822BA4BC400EDDEBF /* IotBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6284A722BA4BC400EDDEBF /* IotBlueUITests.swift */; };
+		9A6284BA22BA5DEB00EDDEBF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6284B922BA5DEB00EDDEBF /* MapView.swift */; };
+		9A6284BC22BA5E1800EDDEBF /* BookMarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6284BB22BA5E1800EDDEBF /* BookMarksView.swift */; };
+		9A6284BE22BA608A00EDDEBF /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6284BD22BA608A00EDDEBF /* DetailsView.swift */; };
+		9ACE805322BBBDBB008D73ED /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE805222BBBDBB008D73ED /* MapController.swift */; };
+		9ACE805522BBC0AC008D73ED /* BookMarksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE805422BBC0AC008D73ED /* BookMarksController.swift */; };
+		9ACE805722BBC26E008D73ED /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE805622BBC26E008D73ED /* DetailsController.swift */; };
+		9FF21E914D34F5AF7E6FA416 /* Pods_IotBlueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7097BFA812C728A9C42DAF71 /* Pods_IotBlueTests.framework */; };
+		DC616D4FF8967E91305FF9A5 /* Pods_IotBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E55475EDFCA4DF87B3BADD /* Pods_IotBlue.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0909F0BE845FA93489BAA0BA /* Pods-IotBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotBlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-IotBlue/Pods-IotBlue.release.xcconfig"; sourceTree = "<group>"; };
+		14E55475EDFCA4DF87B3BADD /* Pods_IotBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IotBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57159FEAC272C2D374B1A286 /* Pods-IotBlueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotBlueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IotBlueTests/Pods-IotBlueTests.release.xcconfig"; sourceTree = "<group>"; };
+		7097BFA812C728A9C42DAF71 /* Pods_IotBlueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IotBlueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		769BA09C498154AA466B9BC8 /* Pods_IotBlueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IotBlueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C08BC5B024BDBC0E78C7CA4 /* Pods-IotBlueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotBlueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IotBlueTests/Pods-IotBlueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1D2CED22BBADB500C311F3 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 		9A62848122BA4BC000EDDEBF /* IotBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IotBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A62848422BA4BC100EDDEBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A62848622BA4BC200EDDEBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A62848922BA4BC200EDDEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A62848C22BA4BC200EDDEBF /* IotBlue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IotBlue.xcdatamodel; sourceTree = "<group>"; };
 		9A62848E22BA4BC200EDDEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +64,15 @@
 		9A6284A322BA4BC300EDDEBF /* IotBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IotBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6284A722BA4BC400EDDEBF /* IotBlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IotBlueUITests.swift; sourceTree = "<group>"; };
 		9A6284A922BA4BC400EDDEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6284B922BA5DEB00EDDEBF /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9A6284BB22BA5E1800EDDEBF /* BookMarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarksView.swift; sourceTree = "<group>"; };
+		9A6284BD22BA608A00EDDEBF /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		9ACE805222BBBDBB008D73ED /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		9ACE805422BBC0AC008D73ED /* BookMarksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarksController.swift; sourceTree = "<group>"; };
+		9ACE805622BBC26E008D73ED /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		A65008A83A7616D04EDC2B42 /* Pods-IotBlueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotBlueUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IotBlueUITests/Pods-IotBlueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5157A61A42D66CA348EA88D /* Pods-IotBlueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotBlueUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IotBlueUITests/Pods-IotBlueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B75C83109732153EF3BEBEC7 /* Pods-IotBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IotBlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IotBlue/Pods-IotBlue.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC616D4FF8967E91305FF9A5 /* Pods_IotBlue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF21E914D34F5AF7E6FA416 /* Pods_IotBlueTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A34033FCB98693389DE50F7 /* Pods_IotBlueUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15BD39103ADC671D55F942F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B75C83109732153EF3BEBEC7 /* Pods-IotBlue.debug.xcconfig */,
+				0909F0BE845FA93489BAA0BA /* Pods-IotBlue.release.xcconfig */,
+				7C08BC5B024BDBC0E78C7CA4 /* Pods-IotBlueTests.debug.xcconfig */,
+				57159FEAC272C2D374B1A286 /* Pods-IotBlueTests.release.xcconfig */,
+				A65008A83A7616D04EDC2B42 /* Pods-IotBlueUITests.debug.xcconfig */,
+				B5157A61A42D66CA348EA88D /* Pods-IotBlueUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9A62847822BA4BBF00EDDEBF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				9A62849B22BA4BC300EDDEBF /* IotBlueTests */,
 				9A6284A622BA4BC300EDDEBF /* IotBlueUITests */,
 				9A62848222BA4BC000EDDEBF /* Products */,
+				15BD39103ADC671D55F942F2 /* Pods */,
+				9E218172341174174E656B16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +142,10 @@
 			isa = PBXGroup;
 			children = (
 				9A62848422BA4BC100EDDEBF /* AppDelegate.swift */,
-				9A62848622BA4BC200EDDEBF /* ViewController.swift */,
-				9A62848822BA4BC200EDDEBF /* Main.storyboard */,
-				9A62848E22BA4BC200EDDEBF /* Assets.xcassets */,
-				9A62849022BA4BC200EDDEBF /* LaunchScreen.storyboard */,
 				9A62849322BA4BC200EDDEBF /* Info.plist */,
-				9A62848B22BA4BC200EDDEBF /* IotBlue.xcdatamodeld */,
+				9ACE805C22BBC3CC008D73ED /* views */,
+				9ACE805B22BBC3B9008D73ED /* controllers */,
+				9ACE805822BBC361008D73ED /* data */,
 			);
 			path = IotBlue;
 			sourceTree = "<group>";
@@ -128,6 +168,72 @@
 			path = IotBlueUITests;
 			sourceTree = "<group>";
 		};
+		9ACE805822BBC361008D73ED /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9ACE805A22BBC370008D73ED /* local */,
+				9ACE805922BBC36A008D73ED /* remote */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9ACE805922BBC36A008D73ED /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				9A1D2CED22BBADB500C311F3 /* ServiceLayer.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		9ACE805A22BBC370008D73ED /* local */ = {
+			isa = PBXGroup;
+			children = (
+				9A62848B22BA4BC200EDDEBF /* IotBlue.xcdatamodeld */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		9ACE805B22BBC3B9008D73ED /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9ACE805222BBBDBB008D73ED /* MapController.swift */,
+				9ACE805422BBC0AC008D73ED /* BookMarksController.swift */,
+				9ACE805622BBC26E008D73ED /* DetailsController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		9ACE805C22BBC3CC008D73ED /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9ACE805D22BBC3ED008D73ED /* storyboards */,
+				9A6284B922BA5DEB00EDDEBF /* MapView.swift */,
+				9A6284BB22BA5E1800EDDEBF /* BookMarksView.swift */,
+				9A6284BD22BA608A00EDDEBF /* DetailsView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9ACE805D22BBC3ED008D73ED /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9A62848822BA4BC200EDDEBF /* Main.storyboard */,
+				9A62848E22BA4BC200EDDEBF /* Assets.xcassets */,
+				9A62849022BA4BC200EDDEBF /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		9E218172341174174E656B16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14E55475EDFCA4DF87B3BADD /* Pods_IotBlue.framework */,
+				7097BFA812C728A9C42DAF71 /* Pods_IotBlueTests.framework */,
+				769BA09C498154AA466B9BC8 /* Pods_IotBlueUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A6284AC22BA4BC400EDDEBF /* Build configuration list for PBXNativeTarget "IotBlue" */;
 			buildPhases = (
+				092A296D803169008EC262BD /* [CP] Check Pods Manifest.lock */,
 				9A62847D22BA4BC000EDDEBF /* Sources */,
 				9A62847E22BA4BC000EDDEBF /* Frameworks */,
 				9A62847F22BA4BC000EDDEBF /* Resources */,
+				CBB95F96062A3E9F7F251E66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A6284AF22BA4BC400EDDEBF /* Build configuration list for PBXNativeTarget "IotBlueTests" */;
 			buildPhases = (
+				74A75C4EC4982B2DE2EA5DE1 /* [CP] Check Pods Manifest.lock */,
 				9A62849422BA4BC300EDDEBF /* Sources */,
 				9A62849522BA4BC300EDDEBF /* Frameworks */,
 				9A62849622BA4BC300EDDEBF /* Resources */,
@@ -170,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A6284B222BA4BC400EDDEBF /* Build configuration list for PBXNativeTarget "IotBlueUITests" */;
 			buildPhases = (
+				BA57FDA2DD209CC76BE667ED /* [CP] Check Pods Manifest.lock */,
 				9A62849F22BA4BC300EDDEBF /* Sources */,
 				9A6284A022BA4BC300EDDEBF /* Frameworks */,
 				9A6284A122BA4BC300EDDEBF /* Resources */,
@@ -257,13 +367,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		092A296D803169008EC262BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IotBlue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A75C4EC4982B2DE2EA5DE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IotBlueTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA57FDA2DD209CC76BE667ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IotBlueUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB95F96062A3E9F7F251E66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IotBlue/Pods-IotBlue-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IotBlue/Pods-IotBlue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A62847D22BA4BC000EDDEBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A62848D22BA4BC200EDDEBF /* IotBlue.xcdatamodeld in Sources */,
-				9A62848722BA4BC200EDDEBF /* ViewController.swift in Sources */,
+				9ACE805722BBC26E008D73ED /* DetailsController.swift in Sources */,
+				9ACE805522BBC0AC008D73ED /* BookMarksController.swift in Sources */,
+				9ACE805322BBBDBB008D73ED /* MapController.swift in Sources */,
+				9A1D2CEE22BBADB500C311F3 /* ServiceLayer.swift in Sources */,
+				9A6284BE22BA608A00EDDEBF /* DetailsView.swift in Sources */,
+				9A6284BA22BA5DEB00EDDEBF /* MapView.swift in Sources */,
+				9A6284BC22BA5E1800EDDEBF /* BookMarksView.swift in Sources */,
 				9A62848522BA4BC200EDDEBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +619,7 @@
 		};
 		9A6284AD22BA4BC400EDDEBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75C83109732153EF3BEBEC7 /* Pods-IotBlue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,12 +628,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nagiz.IotBlue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9A6284AE22BA4BC400EDDEBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0909F0BE845FA93489BAA0BA /* Pods-IotBlue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,12 +643,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nagiz.IotBlue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		9A6284B022BA4BC400EDDEBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C08BC5B024BDBC0E78C7CA4 /* Pods-IotBlueTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +666,7 @@
 		};
 		9A6284B122BA4BC400EDDEBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57159FEAC272C2D374B1A286 /* Pods-IotBlueTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +683,7 @@
 		};
 		9A6284B322BA4BC400EDDEBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65008A83A7616D04EDC2B42 /* Pods-IotBlueUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +699,7 @@
 		};
 		9A6284B422BA4BC400EDDEBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5157A61A42D66CA348EA88D /* Pods-IotBlueUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

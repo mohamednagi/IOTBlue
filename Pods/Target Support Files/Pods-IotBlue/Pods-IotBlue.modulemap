@@ -1,0 +1,6 @@
+framework module Pods_IotBlue {
+  umbrella header "Pods-IotBlue-umbrella.h"
+
+  export *
+  module * { export * }
+}
